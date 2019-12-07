@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".PetroSyllabus4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_advenggchemistrylab_petro4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Advanced Engineering Chemistry Lab"
+                android:textSize="15dp" />
+
+
+            <Button
+                android:id="@+id/bt_basichumanrights_petro4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Basic Human Rights"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_chemenggthermodynamics1_petro4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Chemical Engineering Thermodynamics I"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_heattransferoperation_petro4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Heat Transfer Operation"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_heattransferoperationlab_petro4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Heat Transfer Operation Lab"
+                android:textSize="15dp" />
+
+
+            <Button
+                android:id="@+id/bt_numericalmethodinchemengg_petro4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Numerical Methods in Chemical Engineering"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_petrochemicalengg1_petro4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Petrochemical Engineering I"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_petrochemicalengg1lab_petro4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Petrochemical Engineering I Lab"
+                android:textSize="15dp" />
+
+
+            <Button
+                android:id="@+id/bt_productdesignengg_petro4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Product Design Engineering"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_programminglanglab_petro4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Programming Languages Lab"
+                android:textSize="15dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

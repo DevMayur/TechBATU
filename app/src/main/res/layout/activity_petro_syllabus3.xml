@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    tools:context=".PetroSyllabus3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_enggmath3_petro3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Engineering Mathematics III"
+                android:textSize="15dp" />
+
+
+            <Button
+                android:id="@+id/bt_advenggchemistry_petro3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Advanced Engineering Chemistry"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_chemicalprocesscalculation_petro3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Chemical Process Calculation"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_fluidflowoperation_petro3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Fluid Flow Operation"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_fluidflowoperationlab_petro3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Fluid Flow Operation Lab"
+                android:textSize="15dp" />
+
+
+            <Button
+                android:id="@+id/bt_greentechnology_petro3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Green Technology"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_materialofenggapp_petro3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Materials Of Engineering Applications"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_mechanicaloperation_petro3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Mechanical Operations"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_mechanicaloperationlab_petro3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Mechanical Operations Lab"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_nanotechnology_petro3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Nano Technology"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_petroleumgeology_petro3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Petroleum Geology"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_renewableenergysrc_petro3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Renewable Energy Sources"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

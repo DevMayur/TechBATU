@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techbatu"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.techbatu.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name="com.techbatu.StudentOptions"
+            android:parentActivityName="com.techbatu.Dashboard" />
+        <activity android:name="com.techbatu.Dashboard" />
+        <activity android:name="com.techbatu.Admin" />
+        <activity
+            android:name="com.techbatu.Syllabus"
+            android:parentActivityName="com.techbatu.Dashboard" />
+        <activity
+            android:name="com.techbatu.viewSyllabus"
+            android:parentActivityName="com.techbatu.Dashboard" />
+        <activity
+            android:name="com.techbatu.LoginPage"
+            android:parentActivityName="com.techbatu.Dashboard" />
+        <activity android:name="com.techbatu.mechsem3syllabus" />
+        <activity android:name="com.techbatu.ComputerSyllabus3" />
+        <activity android:name="com.techbatu.CivilSyllabus3" />
+        <activity android:name="com.techbatu.ElectricalSyllabus3" />
+        <activity android:name="com.techbatu.ItSyllabus3" />
+        <activity android:name="com.techbatu.ExtcSyllabus3" />
+        <activity android:name="com.techbatu.ChemicalSyllabus3" />
+        <activity android:name="com.techbatu.PetroSyllabus3" />
+        <activity android:name="com.techbatu.MechSyllabus4" />
+        <activity android:name="com.techbatu.CivilSyllabus4" />
+        <activity android:name="com.techbatu.CompSyllabus4" />
+        <activity android:name="com.techbatu.ElectricalSyllabus4" />
+        <activity android:name="com.techbatu.ItSyllabus4" />
+        <activity android:name="com.techbatu.ExtcSyllabus4" />
+        <activity android:name="com.techbatu.ChemicalSyllabus4" />
+        <activity android:name="com.techbatu.PetroSyllabus4" />
+        <activity android:name="com.techbatu.ViewSyllabusDeptwise" />
+        <activity
+            android:name="com.techbatu.SignUp"
+            android:parentActivityName="com.techbatu.LoginPage" />
+        <activity
+            android:name="com.techbatu.timeline.GetDetails"
+            android:parentActivityName="com.techbatu.LoginPage" />
+        <activity
+            android:name="com.techbatu.timeline.NewPost"
+            android:parentActivityName="com.techbatu.timeline.NewsFeed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.techbatu.timeline.NewsFeed"
+            android:parentActivityName="com.techbatu.timeline.NewsFeed"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.techbatu.FormFilling" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8579970963670342~2634189437" />
+
+        <activity android:name="com.techbatu.timeline.ViewPost" />
+        <activity
+            android:name="com.techbatu.timeline.ProfilePage"
+            android:parentActivityName="com.techbatu.timeline.NewsFeed" />
+        <activity android:name="com.techbatu.WebsiteCollege" />
+        <activity android:name="com.techbatu.Evaluation" />
+        <activity android:name="com.techbatu.timeline.NewQuestion" />
+        <activity android:name="com.techbatu.timeline.AddAnswers" />
+        <activity android:name="com.techbatu.timeline.ViewFullAnswer" />
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <provider
+            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+            android:authorities="com.techbatu.mobileadsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.techbatu.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.techbatu.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

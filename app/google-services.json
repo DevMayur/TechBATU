@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "21772722687",
+    "firebase_url": "https://techbatu-3c15e.firebaseio.com",
+    "project_id": "techbatu-3c15e",
+    "storage_bucket": "techbatu-3c15e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21772722687:android:db606d74b844727e",
+        "android_client_info": {
+          "package_name": "com.techbatu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21772722687-90iljkn39eoe96jhmt3qlqfvdhvfs5h3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techbatu",
+            "certificate_hash": "c4a292015755e4b00cea2ba94ff9cd54554c6868"
+          }
+        },
+        {
+          "client_id": "21772722687-pno63c7g31avamh1emnh668ijmcr73s7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAltudNtHHrRUoRuj3pVEZQBF-2DEhWjEw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21772722687-pno63c7g31avamh1emnh668ijmcr73s7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

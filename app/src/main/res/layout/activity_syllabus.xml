@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="26sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Syllabus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <Button
+            android:id="@+id/bt_m1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Engineering Mathematics I"
+            android:textSize="15dp" />
+
+
+        <Button
+            android:id="@+id/bt_m2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Engineering Mathematics II"
+            android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_chemistry"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Engineering Chemistry"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_mechanics"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Engineering Mechanics"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_cp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Computer_Programming in C"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_workshop"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Workshop Practices"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_electrical_electronics"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Basic Electrical and Electronics Engineering"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_cpL"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Computer_Programming in C Lab"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_chemistryL"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Engineering Chemistry Lab"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_mechanicsL"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Engineering Mechanics Lab"
+                android:textSize="15dp" />
+
+
+            <Button
+                android:id="@+id/bt_physics"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Engineering Physics"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_graphics"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Engineering Graphics"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_cs"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Communication Skills"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_eee"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Energy and Environmental Engineering"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_civil_mechanical"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Basic Civil And Mechanical Engineering"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_physicsL"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Engineering Physics Lab"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_graphicsL"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Engineering Graphics Lab"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/bt_csL"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Communication Skills Lab"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
